@@ -271,21 +271,21 @@ jQuery(function ($) {
 
 });
 
-document.addEventListener("contextmenu", function(event) {
-    event.preventDefault();
-  });
+// document.addEventListener("contextmenu", function(event) {
+//     event.preventDefault();
+//   });
 
-  document.addEventListener("keydown", function(event) {
-    if (event.ctrlKey && event.key === "u") { // Bloque Ctrl + U
-      event.preventDefault();
-    }
-    if (event.key === "F12") { // Bloque F12
-      event.preventDefault();
-    }
-    if (event.ctrlKey && event.shiftKey && event.key === "I") { // Bloque Ctrl + Shift + I
-      event.preventDefault();
-    }
-    if (event.ctrlKey && event.shiftKey && event.key === "J") { // Bloque Ctrl + Shift + J
-      event.preventDefault();
-    }
-  });
+//   document.addEventListener("keydown", function(event) {
+//     if (event.ctrlKey && event.key === "u") { // Bloque Ctrl + U
+//       event.preventDefault();
+//     }
+//     if (event.key === "F12") { // Bloque F12
+//       event.preventDefault();
+//     }
+//     if (event.ctrlKey && event.shiftKey && event.key === "I") { // Bloque Ctrl + Shift + I
+//       event.preventDefault();
+//     }
+//     if (event.ctrlKey && event.shiftKey && event.key === "J") { // Bloque Ctrl + Shift + J
+//       event.preventDefault();
+//     }
+//   });

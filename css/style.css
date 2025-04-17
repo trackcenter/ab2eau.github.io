@@ -617,7 +617,7 @@ ul.top-info li p.info-text {
   padding: 9px 12px;
 }
 .top-social ul li a:hover {
-  color: #333;
+  color: #18BE7D;
 }
 
 /* Top bar border */
@@ -680,7 +680,7 @@ ul.top-info li p.info-text {
   font-family: "Fjalla One", serif;
   font-weight: 400;
   font-style: normal;
-  color: #000;
+  color: #23282d;
 }
 
 .logo a:hover {
@@ -724,7 +724,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 55px;
+  height: 75px;
 }
 
 .header-two .logo img {
@@ -2400,11 +2400,11 @@ img.testimonial-thumb {
 .footer-social ul li a i {
   display: block;
   font-size: 16px;
-  color: #fff;
+  color: #18BE7D;
   transition: 400ms;
   padding: 10px 13px;
 }
-.footer-social ul li:hover {
+.footer-social ul li a i:hover {
   color: #fff;
 }
 
