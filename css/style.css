@@ -293,7 +293,7 @@ a:focus {
 
 /* Column title */
 .column-title {
-  margin: 0 0 40px;
+  margin: 0 0 0 15px;
 }
 
 .column-title-small {
@@ -3353,4 +3353,20 @@ label {
 
 .microstation {
   margin-bottom: 55px;
+}
+
+.mentions-all {
+  margin: 15px 0 35px 0;
+}
+
+.mentions {
+  margin: 0 0 2px 0;
+}
+
+.mentions-title {
+  margin: 35px 0 25px 0;
+}
+
+.text-break {
+  list-style-type:none;
 }
