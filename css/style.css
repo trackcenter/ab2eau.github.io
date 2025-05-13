@@ -3370,3 +3370,11 @@ label {
 .text-break {
   list-style-type:none;
 }
+
+.link-item {
+  color: #18BE7D;
+}
+
+.date {
+  margin-top: 65px;
+}
