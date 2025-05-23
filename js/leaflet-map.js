@@ -106,9 +106,10 @@ const legend = L.control({ position: 'topright' });
 legend.onAdd = function (map) {
   const div = L.DomUtil.create('div', 'info legend');
   div.innerHTML += `
-    <h4>Légende</h4>
-    <i style="background: red; opacity: 0.4; border: 2px solid red; display: inline-block; width: 18px; height: 18px; margin-right: 8px;"></i>
-    Antennes locales<br>
+    <h4 class="text-center">Légende</h4>
+    
+    <p class="legend"><i style="background: white; border: 2px solid blue; display: inline-block; width: 18px; height: 18px; margin-right: 8px;"></i> Départements</p>
+    <p class="legend"><i style="background: #DC9D9B; border: 2px solid red; display: inline-block; width: 18px; height: 18px; margin-right: 8px;"></i> Antennes locales</p>
   `;
   return div;
 };
