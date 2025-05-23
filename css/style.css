@@ -3537,3 +3537,12 @@ label {
 #map-container {
   margin-top: 20px;
 }
+
+.leaflet-control.legend {
+  background: white;
+  padding: 10px;
+  line-height: 1.4em;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}

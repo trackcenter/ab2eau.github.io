@@ -20,7 +20,8 @@ const communeStyle = {
   color: "red",
   weight: 2,
   opacity: 1,
-  fillOpacity: 0
+    fillColor: 'red',     // remplissage rouge
+  fillOpacity: 0.4  
 };
 
 // Départements à charger
@@ -99,3 +100,17 @@ Object.entries(communesFiles).forEach(([codeDep, url]) => {
     })
     .catch(err => console.error("Erreur chargement communes :", err));
 });
+
+const legend = L.control({ position: 'topright' });
+
+legend.onAdd = function (map) {
+  const div = L.DomUtil.create('div', 'info legend');
+  div.innerHTML += `
+    <h4>Légende</h4>
+    <i style="background: red; opacity: 0.4; border: 2px solid red; display: inline-block; width: 18px; height: 18px; margin-right: 8px;"></i>
+    Antennes locales<br>
+  `;
+  return div;
+};
+
+legend.addTo(map);
