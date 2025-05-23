@@ -48,15 +48,15 @@ const communesFiles = {
 };
 
 var myIcon = L.icon({
-    iconUrl: './images/map/map-marker-home.png',
+    iconUrl: './images/map/google-maps.png',
     iconSize: [38, 38],
-    iconAnchor: [22, 94],
-    popupAnchor: [-3, -95],
+    iconAnchor: [20, 45],
+    popupAnchor: [0, -45],
     shadowSize: [68, 95],
     shadowAnchor: [22, 94]
 });
 
-L.marker([47.3262523321707, 5.040874591048292], 
+L.marker([47.32656318573532, 5.044057341878114], 
     {icon: myIcon})
     .addTo(map)
     .bindPopup("📍 Dijon")
