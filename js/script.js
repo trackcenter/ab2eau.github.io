@@ -225,26 +225,26 @@ jQuery(function ($) {
 				prevArrow: '<button type="button" class="carousel-control left" aria-label="carousel-control"><i class="fas fa-chevron-left"></i></button>',
 				nextArrow: '<button type="button" class="carousel-control right" aria-label="carousel-control"><i class="fas fa-chevron-right"></i></button>',
 				responsive: [{
-						breakpoint: 992,
-						settings: {
-							slidesToShow: 3,
-							slidesToScroll: 3
-						}
-					},
-					{
-						breakpoint: 768,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 2
-						}
-					},
-					{
-						breakpoint: 481,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3
 					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 481,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
 				]
 			});
 		}
@@ -271,21 +271,21 @@ jQuery(function ($) {
 
 });
 
-document.addEventListener("contextmenu", function(event) {
-    event.preventDefault();
-  });
+// document.addEventListener("contextmenu", function(event) {
+//     event.preventDefault();
+//   });
 
-  document.addEventListener("keydown", function(event) {
-    if (event.ctrlKey && event.key === "u") { // Bloque Ctrl + U
-      event.preventDefault();
-    }
-    if (event.key === "F12") { // Bloque F12
-      event.preventDefault();
-    }
-    if (event.ctrlKey && event.shiftKey && event.key === "I") { // Bloque Ctrl + Shift + I
-      event.preventDefault();
-    }
-    if (event.ctrlKey && event.shiftKey && event.key === "J") { // Bloque Ctrl + Shift + J
-      event.preventDefault();
-    }
-  });
+//   document.addEventListener("keydown", function(event) {
+//     if (event.ctrlKey && event.key === "u") { // Bloque Ctrl + U
+//       event.preventDefault();
+//     }
+//     if (event.key === "F12") { // Bloque F12
+//       event.preventDefault();
+//     }
+//     if (event.ctrlKey && event.shiftKey && event.key === "I") { // Bloque Ctrl + Shift + I
+//       event.preventDefault();
+//     }
+//     if (event.ctrlKey && event.shiftKey && event.key === "J") { // Bloque Ctrl + Shift + J
+//       event.preventDefault();
+//     }
+//   });
